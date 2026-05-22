@@ -1,5 +1,5 @@
-# ZMK 공식 표준 유저 빌드 워크플로우 규격
 name: Build ZMK Firmware
+
 on:
   push:
     paths:
@@ -11,4 +11,4 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
